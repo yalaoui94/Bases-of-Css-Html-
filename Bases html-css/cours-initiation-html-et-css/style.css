@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800;900&display=swap');
+
+body,*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    background: #542f7a; 
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    margin-top: -10px;
+    z-index: 5;text-align: center;
+    }
+
+header h1{ 
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 900;
+    border: solid 5px #fff;
+    color: #fff;
+    /* background-color:#0062ff ; */
+    display: inline-block;
+    padding: 2px 15px;
+    border-radius: 25%;
+}
+
+.welcome{ 
+    position: relative;
+    width: 1800px;
+    background-color: white;
+    margin: 10px auto;
+    height: 550px;
+    
+    
+}
+
+.welcome img{ 
+     position: absolute;
+     top: 29%;
+     left: 48%;
+     width: 360px;
+     border-radius: 50%;
+     background-color: gray;
+     border-top-right-radius:0 ;
+     
+}
+
+.welcome h2 { 
+     font-size: 1.9rem;
+     text-transform: uppercase;
+     position: absolute;
+     left: 5%;
+     top: 40%;
+     color: black;
+}
+
+.welcome h2 span{ 
+    color: #651cad;
+    font-weight: bold;
+}
+
+/* nave*/
+
+nav{
+    position: sticky;
+    top: 90px;
+    margin: 25px auto;
+    background-color: gray;
+    z-index: 15;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    color: white;
+}
+
+
+/**********maiin content*******/
+
+main.main-content{ 
+    width: 100%;
+    max-width: 1000px;
+    margin: 75px auto;
+}
+
+section h2{ 
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+section p{ 
+    font-size: 1.4rem;
+}
+
+
+.images{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.images li{
+    list-style-type: none; 
+    margin-right:10px ;
+
+}
+
+.image img{ 
+
+    width: 100%;
+    border: solid 2px rgb(114, 103, 103);
+    border-radius: 1rem;
+}
+
+div.services .row{ 
+    display: flex;
+    margin-bottom: 2rem; 
+}
+
+.div.service-title{
+    display: flex; 
+
+}
+
+.service-title img{
+    width: 32px;
+    margin-right: 12px;
+}
+
+div.service-title h3{ 
+    font-size: 1.5rem;
+}
+
+
+/********* Formulaire*******/
+
+
+form{ 
+    border: solid 2px #ddd;
+    width: 60%;
+    padding: 25px;
+    background-color: #641cad54;
+    border-radius: 2rem;
+}
+
+form input[type='text'],form input[type='email'],form textarea{ 
+    padding: 8px;
+    font-size: 1.3rem;
+    width: 100%;
+    border: solid 1px;
+    margin: 6px 0px;
+}
+
+form input[type='submit']{
+
+    font-size: 1.4rem ;
+    font-weight: bold;
+    text-transform: capitalize;
+    border:none;
+    background-color: white;
+    columns: #fff;
+    padding: 8px 24px;
+    border-radius: 2rem;
+}
+
+.whatsapp{ 
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.whatsapp img.logo{ 
+    height: 53px;
+    justify-items: center;
+
+}
+
+.whatsapp span.phone{ 
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+
+div.form{
+    position: relative;
+}
+
+
+div.form form{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+
+/*****Footer*************/ 
+
+footer{ 
+    width: 100%;
+    background: #651cad;
+    color: #fff;
+    margin-top: 48px;
+
+}
+
+footer p { 
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p a{ 
+    text-decoration: none;
+    color: rgb(199, 198, 198);
+    font-weight: bold;
+}
